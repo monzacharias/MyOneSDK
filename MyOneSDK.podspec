@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :http => 'https://www.dropbox.com/s/3x12miuvnfe5c5k/MyOneSDK.zip?dl=0' }
+    s.source            = { :git => 'https://github.com/monzacharias/MyOneSDK.git' }
     s.ios.vendored_frameworks = 'MyOneSDK.framework'
 
     s.ios.deployment_target = '11.0'
