@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios, '11.0'
     s.source            = { :git => 'https://github.com/monzacharias/MyOneSDK.git', :tag => s.version.to_s }
-    s.ios.vendored_frameworks = 'MyOneSDK.framework'
+    s.ios.vendored_frameworks = 'v1.0.2/MyOneSDK.framework'
 
     s.ios.deployment_target = '11.0'
     
